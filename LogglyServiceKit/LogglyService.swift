@@ -13,7 +13,7 @@ public final class LogglyService: Service {
 
     public static let serviceIdentifier = "LogglyService"
 
-    public static let localizedTitle = LocalizedString("Loggly", comment: "The title of the Loggly service")
+    public static let localizedTitle = LocalizedString("登录", comment: "The title of the Loggly service")
 
     public weak var serviceDelegate: ServiceDelegate?
 
